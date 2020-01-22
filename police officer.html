@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style=" border-bottom: black; ">
+      <a class="navbar-brand pr-20" href="boot.html">D.P.S.S</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+        <div class="navbar-nav" >
+          <a class="nav-item nav-link active" href="boot.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="contact.html">address</a>
+          <a class="nav-item nav-link disabled" href="#">admin</a>
+        </div>
+      </div>
+    </nav>
+    <ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link" href="boot.html">Community mode</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="police officer.html">Police officer mode</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="attorney.html">Attorney mode</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="admin.html">Admin officer</a>
+  </li>
+</ul>
+<div class="row">
+
+<div class="col-6" style="margin-left: 50px; margin-top: 30px;">
+<img src="logo.jpg" class="img-fluid col-6" alt="Responsive image">
+</div>
+<div class="card col-6" style="max-width: 600px; margin-top: 30px;">
+<div class="card-body">
+  type the required info below.
+
+  <form action="php/login2.php" method="POST">
+<div class="form-group">
+<label for="exampleInputid">Identification number</label>
+<input type="name" name="id" class="form-control" id="exampleInputid" aria-describedby="emailHelp" placeholder="Enter id">
+<small id="emailHelp" class="form-text text-muted"></small>
+</div>
+<div class="form-group">
+<label for="exampleInputPassword1">Password</label>
+<input type="password"  name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
+</div>
+<div class="form-check">
+<label class="form-check-label">
+  <input type="checkbox" class="form-check-input">
+  Check me out
+</label>
+</div>
+<button type="submit" name="sub" value="sub" class="btn btn-primary">Log in</button><br></br>
+  </form>
+<p>if u havent signed up yet sign up first here.</p>
+<form action="signup2.html">
+<button type="submit" class="btn btn-primary">sign up</button>
+</form>
+</div>
+</div>
+</div>
